@@ -6,7 +6,7 @@ import { FaArrowRight, FaFacebookF, FaTwitter, FaInstagram, FaSearch } from 'rea
 function Header() {
   const [activeMenu, setActiveMenu] = useState(null);
   const timeoutRef = useRef(null);
-
+  const [language, setLanguage] = useState('en'); 
   const handleMouseEnter = (menu) => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
@@ -18,6 +18,11 @@ function Header() {
     timeoutRef.current = setTimeout(() => {
       setActiveMenu(null);
     }, 300); // 300ms delay before closing the submenu
+  };
+
+  const handleLanguageChange = (e) => {
+    setLanguage(e.target.value);
+    // Logic to handle language change in the app can go here, like using i18next
   };
 
   useEffect(() => {
@@ -117,6 +122,14 @@ function Header() {
           </ul>
         </nav>
         <div className="flex items-center space-x-4">
+        <select
+            value={language}
+            onChange={handleLanguageChange}
+            className="text-blue-600 bg-white px-4 py-2 rounded focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
+          >
+            <option value="en">English</option>
+            <option value="hi">हिंदी</option>
+          </select>
           <button className="hover:text-blue-300 transition-colors duration-300 ease-in-out">
             <FaSearch />
           </button>
