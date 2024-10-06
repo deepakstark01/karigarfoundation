@@ -58,15 +58,15 @@ function Contact() {
           <ul className="space-y-6">
             <li>
               <h3 className="text-lg font-medium text-gray-800">Address</h3>
-              <p className="text-gray-600">123 NGO Street, Suite 456, City, Country</p>
+              <p className="text-gray-600">Saket Nagar lalganj Raibareli Uttarpradesh 229206</p>
             </li>
             <li>
               <h3 className="text-lg font-medium text-gray-800">Phone</h3>
-              <p className="text-gray-600">(123) 456-7890</p>
+              <p className="text-gray-600">9807649987</p>
             </li>
             <li>
               <h3 className="text-lg font-medium text-gray-800">Email</h3>
-              <p className="text-gray-600">contact@ngo.org</p>
+              <p className="text-gray-600">rohit.kumar@kaarigarfoundation.org</p>
             </li>
             <li>
               <h3 className="text-lg font-medium text-gray-800">Social Media</h3>
@@ -86,7 +86,8 @@ function Contact() {
         <h2 className="text-3xl font-semibold text-blue-500 mb-6">Find Us</h2>
         <iframe
           title="Location Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.081919417824!2d-122.39720708414104!3d37.79219907975506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d0d0c12f1%3A0x8123b1c3b33d4b4d!2s123%20NGO%20Street%2C%20San%20Francisco%2C%20CA%2094140%2C%20USA!5e0!3m2!1sen!2sus!4v1614080420801!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12220.89832269269!2d80.9645!3d26.1713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDEwJzE1LjAiTiA4MMKwNTcnNTIuMCJF!5e0!3m2!1sen!2sin!4v1635772720512!5m2!1sen!2sin" 
+
           className="absolute inset-0 w-full h-full border-0 rounded-lg shadow-md"
           allowFullScreen=""
           loading="lazy"

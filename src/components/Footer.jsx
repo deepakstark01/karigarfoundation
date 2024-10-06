@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-600 text-white py-12">
+    <footer className="bg-blue-600 text-white py-12 ">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <h3 className="text-2xl font-bold mb-4">About Us</h3>
@@ -19,7 +19,7 @@ const Footer = () => {
             <li><a href="#home" className="hover:underline hover:text-blue-200 transition duration-300">Home</a></li>
             <li><a href="#about" className="hover:underline hover:text-blue-200 transition duration-300">About Us</a></li>
             <li><a href="#projects" className="hover:underline hover:text-blue-200 transition duration-300">Projects</a></li>
-            <li><a href="#contact" className="hover:underline hover:text-blue-200 transition duration-300">Contact</a></li>
+            <li><a href="/contact" className="hover:underline hover:text-blue-200 transition duration-300">Contact</a></li>
             <li><a href="#donate" className="hover:underline hover:text-blue-200 transition duration-300">Donate</a></li>
           </ul>
         </div>
@@ -35,9 +35,9 @@ const Footer = () => {
         <div>
           <h3 className="text-2xl font-bold mb-4">Contact Us</h3>
           <ul className="text-gray-300 space-y-2">
-            <li><span className="font-semibold">Address:</span> 123 Charity St, Helping City, Country</li>
-            <li><span className="font-semibold">Phone:</span> +123 456 7890</li>
-            <li><span className="font-semibold">Email:</span> info@ngo.org</li>
+            <li><span className="font-semibold">Address:</span>Saket Nagar lalganj Raibareli Uttarpradesh 229206 </li>
+            <li><span className="font-semibold">Phone:</span> +919807649987</li>
+            <li><span className="font-semibold">Email:</span>rohit.kumar@kaarigarfoundation.org</li>
           </ul>
           <div className="flex space-x-4 mt-6">
             <a href="#facebook" className="text-gray-200 hover:text-blue-400 transition duration-300"><FaFacebookF className="text-2xl" /></a>
@@ -48,11 +48,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-blue-500 mt-8 pt-4 text-center">
-        <p className="text-gray-300">&copy; 2024 NGO Name. All rights reserved.</p>
+        <p className="text-gray-300">&copy; 2024 Kaarigar Foundation . All rights reserved.</p>
         <nav className="flex justify-center space-x-4 mt-4">
           <a href="#privacy" className="hover:text-blue-200 transition duration-300">Privacy Policy</a>
           <a href="#terms" className="hover:text-blue-200 transition duration-300">Terms of Service</a>
-          <a href="#contact" className="hover:text-blue-200 transition duration-300">Contact Us</a>
+          <a href="/contact" className="hover:text-blue-200 transition duration-300">Contact Us</a>
         </nav>
       </div>
     </footer>

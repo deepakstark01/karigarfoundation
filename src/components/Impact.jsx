@@ -1,70 +1,57 @@
 import React from 'react';
+import SuccessStories from './SuccessStories'
 
 function Impact() {
   return (
     <div className="container mx-auto p-8 bg-white rounded-lg shadow-lg my-8 border border-gray-200">
-      <h1 className="text-4xl font-extrabold text-gray-800 mb-8 text-center">Our Impact</h1>
+      <h1 className="text-4xl font-extrabold text-gray-800 mb-8 text-center">Our Impact for Laborers</h1>
 
-      {/* Community Outreach Section */}
+      {/* Laborers' Support Section */}
       <section className="mb-8 bg-blue-50 p-6 rounded-lg shadow-md">
-        <h2 className="text-3xl font-semibold text-blue-700 mb-4">Community Outreach</h2>
+        <h2 className="text-3xl font-semibold text-blue-700 mb-4">Direct Support for Laborers</h2>
         <p className="text-gray-700 mb-4">
-          Our outreach programs have transformed countless lives by providing essential resources and support to underserved communities. From food drives to educational initiatives, we strive to make a lasting impact.
+          Karigar Foundation is committed to transforming the lives of laborers by providing critical support. Whether it's fair wages, healthcare access, or legal assistance, our mission is to stand by their side.
         </p>
         <ul className="list-disc list-inside text-gray-700 mb-4">
-          <li>Food and shelter for over 5,000 families</li>
-          <li>Educational programs for 2,000 children</li>
-          <li>Healthcare services for 1,500 individuals</li>
+          <li>Assisted 1,000 laborers in securing fair wages</li>
+          <li>Healthcare support for over 500 laborers</li>
+          <li>Legal help to 300+ laborers facing exploitation</li>
         </ul>
-        <img src="https://mrida.co/cdn/shop/articles/Karigar_ki_kahaniya_copy_02.jpg?v=1722700296" alt="Community Outreach" className="w-full h-90 object-cover rounded-lg mb-4" />
-        <a href="/community-outreach" className="inline-block text-blue-600 font-medium hover:text-blue-800 transition duration-300 underline">Learn More</a>
+        <img 
+          src="https://mrida.co/cdn/shop/articles/Karigar_ki_kahaniya_copy_02.jpg?v=1722700296" 
+          alt="Laborer Support" 
+          className="w-full h-60 object-cover rounded-lg mb-4" 
+        />
+        <a href="/laborer-support" className="inline-block text-blue-600 font-medium hover:text-blue-800 transition duration-300 underline">Learn More About Our Work</a>
       </section>
 
       {/* Success Stories Section */}
-      <section className="mb-8 bg-green-50 p-6 rounded-lg shadow-md">
-        <h2 className="text-3xl font-semibold text-green-700 mb-4">Success Stories</h2>
-        <p className="text-gray-700 mb-4">
-          Discover the powerful stories of individuals who have experienced transformative changes through our programs. Their journeys highlight the positive impact of our initiatives.
-        </p>
-        <div className="grid md:grid-cols-2 gap-6">
-          <article className="bg-white p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-            <img src="https://www.agwo.org/wp-content/uploads/2022/04/one-of-the-best-NGOs-in-India-580x640.jpeg" alt="Maria's Journey" className="w-full h-50 object-cover rounded-t-lg mb-4" />
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Maria's Journey</h3>
-            <p className="text-gray-600">
-              Maria, a single mother of three, found hope and support through our educational programs. She is now pursuing higher education and has secured a stable job.
-            </p>
-          </article>
-          <article className="bg-white p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-            <img src="https://elysiumfoundation.org.in/wp-content/uploads/2021/08/Rural-Community-Development.jpg.webp" alt="John's Health Transformation" className="w-full h-50 object-cover rounded-t-lg mb-4" />
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">John's Health Transformation</h3>
-            <p className="text-gray-600">
-              John received crucial healthcare services through our outreach program, which helped him recover from a chronic illness and improve his quality of life.
-            </p>
-          </article>
-        </div>
-        <a href="/success-stories" className="inline-block text-green-600 font-medium hover:text-green-800 transition duration-300 underline">Read More Success Stories</a>
-      </section>
+      <SuccessStories/>
 
-      {/* Global Impact Section */}
+      {/* Laborer Outreach Section */}
       <section className="mb-8 bg-yellow-50 p-6 rounded-lg shadow-md">
-        <h2 className="text-3xl font-semibold text-yellow-700 mb-4">Global Impact</h2>
+        <h2 className="text-3xl font-semibold text-yellow-700 mb-4">Laborer Outreach Programs</h2>
         <p className="text-gray-700 mb-4">
-          Our initiatives extend across the globe, collaborating with international partners to address pressing global challenges such as poverty, disaster relief, and sustainable development.
+          Karigar Foundation extends its efforts to reach laborers in need through various outreach programs. We focus on educating them about their rights, providing healthcare, and offering emergency assistance.
         </p>
         <ul className="list-disc list-inside text-gray-700 mb-4">
-          <li>Partnered in disaster relief efforts in Asia and Africa</li>
-          <li>Supported sustainable development projects in Latin America</li>
-          <li>Provided emergency aid in conflict zones</li>
+          <li>Organized 50+ legal awareness camps for laborers</li>
+          <li>Healthcare checkups for over 700 laborers</li>
+          <li>Emergency support programs reaching 800 laborer families</li>
         </ul>
-        <img src="https://ngofeed.com/wp-content/uploads/2024/04/NGO-in-Consumer-Protection.jpg" alt="Global Impact" className="w-full h-80 object-cover rounded-lg mb-4" />
-        <a href="/global-impact" className="inline-block text-yellow-600 font-medium hover:text-yellow-800 transition duration-300 underline">Explore Our Global Impact</a>
+        <img 
+          src="https://ngofeed.com/wp-content/uploads/2024/04/NGO-in-Consumer-Protection.jpg" 
+          alt="Laborer Outreach" 
+          className="w-full h-60 object-cover rounded-lg mb-4" 
+        />
+        <a href="/laborer-outreach" className="inline-block text-yellow-600 font-medium hover:text-yellow-800 transition duration-300 underline">Learn More About Our Outreach</a>
       </section>
 
       {/* Get Involved Section */}
       <section className="bg-gray-50 p-6 rounded-lg shadow-md">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Get Involved</h2>
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">How You Can Help</h2>
         <p className="text-gray-700 mb-4">
-          Want to make a difference? Join us in our mission and contribute to our impactful work. There are various ways you can get involved and support our cause.
+          Make a real difference in the lives of laborers. Your support helps provide legal aid, healthcare, and essential resources to those in need. Get involved today.
         </p>
         <a href="/get-involved" className="inline-block text-gray-600 font-medium hover:text-gray-800 transition duration-300 underline">Learn How to Get Involved</a>
       </section>
@@ -75,20 +62,20 @@ function Impact() {
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
             <div className="w-16 h-16 bg-blue-500 text-white flex items-center justify-center rounded-full">
-              <span className="text-xl font-bold">1K+</span>
+              <span className="text-xl font-bold">1.2K+</span>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-800">Meals Distributed</h3>
-              <p className="text-gray-600">We have distributed over 1,000 meals in the past month alone, providing much-needed sustenance to families in need.</p>
+              <h3 className="text-xl font-semibold text-gray-800">Laborers Assisted</h3>
+              <p className="text-gray-600">We have provided direct support to over 1,200 laborers through legal aid, healthcare, and emergency assistance programs.</p>
             </div>
           </div>
           <div className="flex items-center space-x-4">
             <div className="w-16 h-16 bg-green-500 text-white flex items-center justify-center rounded-full">
-              <span className="text-xl font-bold">500+</span>
+              <span className="text-xl font-bold">900+</span>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-800">Volunteers Engaged</h3>
-              <p className="text-gray-600">Our dedicated team of volunteers has grown to over 500 members, working tirelessly to support our various initiatives.</p>
+              <h3 className="text-xl font-semibold text-gray-800">Families Supported</h3>
+              <p className="text-gray-600">Over 900 laborer families have received essential support through our outreach and emergency assistance initiatives.</p>
             </div>
           </div>
         </div>
