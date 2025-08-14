@@ -31,7 +31,7 @@ const About = () => {
           <div
             className="absolute inset-0"
             style={{
-              backgroundImage: `url("./assets/cover.jpeg")`, // Use a valid path to your pattern image
+              backgroundImage: `url("/assets/cover.jpeg")`, // Use a valid path to your pattern image
               backgroundRepeat: 'repeat'
             }}
           />

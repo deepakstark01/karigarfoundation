@@ -135,7 +135,7 @@
     "team": {
       "title": "Our Team",
       "members": [
-        { "name": "Rohit Kumar", "role": "Founder & Director", "img": "/assets/team1.jpg" },
+        { "name": "Rohit Kumar", "role": "Founder & Director", "img": "/assets/team1.JPG" },
         { "name": "Dhirendra Kumar", "role": "Program Lead — Rights & Awareness", "img": "/assets/team2.jpg" },
         { "name": "Dhirendra Kumar", "role": "Program Lead — Rights & Awareness", "img": "/assets/team2.jpg" }
       ]
