@@ -1,109 +1,142 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-function Contact() {
+const Contact = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="container mx-auto p-8 bg-white rounded-lg shadow-lg my-8 max-w-5xl border border-gray-200">
-      <h1 className="text-4xl font-extrabold text-blue-600 mb-8 text-center">Contact Us</h1>
-      <p className="text-center mb-8 text-gray-600 leading-relaxed">
-        We’d love to hear from you! Whether you have questions, feedback, or just want to connect, use the form below or reach out via the contact details provided. We're here to assist you!
-      </p>
+    <div className="min-h-screen bg-gray-50 py-20">
+      <div className="container mx-auto px-6 max-w-4xl">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h1 className="text-5xl md:text-6xl font-bold text-black mb-8 tracking-tight">
+            {t('contact')}
+          </h1>
+          <p className="text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto">
+            {t('contact_description')}
+          </p>
+        </div>
 
-      <div className="grid gap-8 md:grid-cols-2">
-        {/* Contact Form */}
-        <div className="md:col-span-1">
-          <h2 className="text-3xl font-semibold text-blue-500 mb-6">Get in Touch</h2>
-          <form className="space-y-6 bg-gray-50 p-6 rounded-lg shadow-md">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition-transform duration-300 ease-in-out transform hover:scale-105"
-              />
+        <div className="grid md:grid-cols-2 gap-12">
+          {/* Contact Information */}
+          <div>
+            <h2 className="text-3xl font-bold text-black mb-8 uppercase tracking-wide">
+              {t('contact_info')}
+            </h2>
+            
+            <div className="space-y-6">
+              {/* Address */}
+              <div className="bg-white border-2 border-black p-6">
+                <div className="font-bold text-black mb-2 uppercase tracking-wide">
+                  {t('address')}
+                </div>
+                <div className="text-gray-800">
+                  Saket Nagar, Lalganj, Raebareli, UP 229206
+                </div>
+              </div>
+
+              {/* Phone */}
+              <div className="bg-black text-white p-6">
+                <div className="font-bold mb-2 uppercase tracking-wide">
+                  {t('phone')}
+                </div>
+                <div className="text-gray-200">
+                  +91 9807649987
+                </div>
+              </div>
+
+              {/* Email */}
+              <div className="bg-white border-2 border-black p-6">
+                <div className="font-bold text-black mb-2 uppercase tracking-wide">
+                  {t('email')}
+                </div>
+                <div className="text-gray-800">
+                  rohit.kumar@kaarigarfoundation.org
+                </div>
+              </div>
+
+              {/* WhatsApp */}
+              <a 
+                href="https://wa.me/919807649987" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block bg-green-600 text-white p-6 hover:bg-green-700 transition-colors"
+              >
+                <div className="flex items-center">
+                  {/* WhatsApp Icon */}
+                  <svg className="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.894 3.488"/>
+                  </svg>
+                  <div>
+                    <div className="font-bold uppercase tracking-wide">
+                      {t('contact_whatsapp')}
+                    </div>
+                    <div className="text-green-100">
+                      +91 9807649987
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition-transform duration-300 ease-in-out transform hover:scale-105"
-              />
+          </div>
+
+          {/* Contact Form */}
+          <div>
+            <h2 className="text-3xl font-bold text-black mb-8 uppercase tracking-wide">
+              {t('send_message')}
+            </h2>
+            
+            <div className="space-y-6">
+              <div>
+                <input 
+                  type="text" 
+                  placeholder={t('your_name')} 
+                  className="w-full p-4 border-2 border-black focus:outline-none focus:border-gray-600" 
+                />
+              </div>
+              
+              <div>
+                <input 
+                  type="email" 
+                  placeholder={t('your_email')} 
+                  className="w-full p-4 border-2 border-black focus:outline-none focus:border-gray-600" 
+                />
+              </div>
+              
+              <div>
+                <textarea 
+                  placeholder={t('your_message')} 
+                  className="w-full p-4 border-2 border-black focus:outline-none focus:border-gray-600" 
+                  rows={6}
+                />
+              </div>
+              
+              <button 
+                className="w-full py-4 bg-black text-white font-bold uppercase tracking-wide border-2 border-black hover:bg-white hover:text-black transition-colors"
+              >
+                {t('send_message')}
+              </button>
             </div>
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                required
-                className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition-transform duration-300 ease-in-out transform hover:scale-105"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105"
-            >
-              Send Message
+          </div>
+        </div>
+
+        {/* Additional CTA */}
+        <div className="text-center mt-16">
+          <div className="bg-black text-white p-8">
+            <h3 className="text-2xl font-bold mb-4 uppercase tracking-wide">
+              {t('get_involved')}
+            </h3>
+            <p className="text-gray-300 mb-6">
+              {t('get_involved_description')}
+            </p>
+            <button className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wide hover:bg-white hover:text-black transition-colors">
+              {t('learn_more')}
             </button>
-          </form>
+          </div>
         </div>
-
-        {/* Contact Information */}
-        <div className="md:col-span-1">
-          <h2 className="text-3xl font-semibold text-blue-500 mb-6">Contact Information</h2>
-          <ul className="space-y-6">
-            <li>
-              <h3 className="text-lg font-medium text-gray-800">Address</h3>
-              <p className="text-gray-600">Saket Nagar lalganj Raibareli Uttarpradesh 229206</p>
-            </li>
-            <li>
-              <h3 className="text-lg font-medium text-gray-800">Phone</h3>
-              <p className="text-gray-600">9807649987</p>
-            </li>
-            <li>
-              <h3 className="text-lg font-medium text-gray-800">Email</h3>
-              <p className="text-gray-600">rohit.kumar@kaarigarfoundation.org</p>
-            </li>
-            <li>
-              <h3 className="text-lg font-medium text-gray-800">Social Media</h3>
-              <p className="flex space-x-4">
-                <a href="#facebook" className="text-blue-600 hover:underline">Facebook</a> |
-                <a href="#twitter" className="text-blue-600 hover:underline">Twitter</a> |
-                <a href="#instagram" className="text-blue-600 hover:underline">Instagram</a> |
-                <a href="#linkedin" className="text-blue-600 hover:underline">LinkedIn</a>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Map Section */}
-      <div className="mt-12 relative h-64">
-        <h2 className="text-3xl font-semibold text-blue-500 mb-6">Find Us</h2>
-        <iframe
-          title="Location Map"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12220.89832269269!2d80.9645!3d26.1713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDEwJzE1LjAiTiA4MMKwNTcnNTIuMCJF!5e0!3m2!1sen!2sin!4v1635772720512!5m2!1sen!2sin" 
-
-          className="absolute inset-0 w-full h-full border-0 rounded-lg shadow-md"
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
-      </div>
-
-      {/* Additional Call-to-Action Section */}
-      <div className="mt-12 bg-blue-50 p-6 rounded-lg shadow-md text-center">
-        <h2 className="text-3xl font-semibold text-blue-600 mb-4">Stay Connected</h2>
-        <p className="text-gray-600 mb-4">
-          For the latest updates and news, follow us on social media or sign up for our newsletter. Stay informed about our upcoming events and initiatives!
-        </p>
-        <a href="/newsletter-signup" className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">Sign Up for Newsletter</a>
       </div>
     </div>
   );
-}
+};
 
 export default Contact;

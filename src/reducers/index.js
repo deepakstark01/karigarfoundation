@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import projectReducer from './projectReducer';
-import successStoriesReducer from './successStoriesReducer';
+import projectReducer from './projectSlice'; // 🔧 fixed import names
+import successStoriesReducer from './successStoriesSlice';
 
 const rootReducer = combineReducers({
   project: projectReducer,

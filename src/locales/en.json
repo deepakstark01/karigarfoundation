@@ -1,0 +1,285 @@
+{
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "impact": "Impact",
+  "getInvolved": "Get Involved",
+  "contact": "Contact",
+  "donate": "Donate",
+  "donate_now": "Donate Now",
+  "read_more": "Read more",
+
+  "about_description": "We support laborers with legal aid, awareness, and emergency relief.",
+  "about_mission": "Our Mission",
+  "about_mission_description": "To protect workers' rights and improve their livelihoods with dignity.",
+
+  "contact_description": "Reach out to us for help, partnerships, or media queries.",
+  "your_name": "Your Name",
+  "your_email": "Your Email",
+  "your_message": "Your Message",
+  "send_message": "Send Message",
+
+  "donate_description": "Your contribution funds legal aid, healthcare, and emergency support.",
+
+  "footer_about": "About Karigar Foundation",
+  "footer_about_desc": "A non-profit uplifting laborers with justice, safety, and opportunity.",
+  "footer_links": "Quick Links",
+  "footer_news": "Latest Updates",
+  "footer_news1": "Announcement 1",
+  "footer_news2": "Announcement 2",
+  "footer_news3": "Announcement 3",
+  "footer_news4": "Announcement 4",
+  "footer_contact": "Contact",
+  "footer_address": "Address",
+  "footer_phone": "Phone",
+  "footer_email": "Email",
+  "footer_rights": "All rights reserved.",
+  "footer_privacy": "Privacy Policy",
+  "footer_terms": "Terms of Service",
+
+  "how_we_help_laborers": "How We Help Laborers",
+  "be_a_lifeline_for_laborers": "Be a Lifeline for Laborers",
+  "laborers_need_your_support": "Your support ensures fair wages, safety, and dignity for workers.",
+  "welcome": "Welcome to Karigar Foundation",
+  "home_description": "We stand with laborers—offering legal help, awareness campaigns, and critical support.",
+  "mission_title": "Mission",
+  "mission_description": "Justice, safety, and better livelihoods for every worker.",
+  "vision_title": "Vision",
+  "vision_description": "A society where every worker is valued and protected.",
+
+  "impact_description": "See how our programs are changing lives.",
+  "impact_story_title": "Featured Impact Story",
+  "impact_story_description": "Through legal action and emergency aid, families regained stability.",
+
+  "get_involved_description": "Volunteer, partner, or fund our programs.",
+  "join_now": "Join Now",
+
+  "project_title": "Our Focused Programs",
+  "project_legal_help": "Legal Help",
+  "project_legal_help_desc": "Free legal advice and representation to fight exploitation and recover wages.",
+  "project_rights_awareness": "Rights Awareness",
+  "project_rights_awareness_desc": "Workshops and outreach so workers know their rights.",
+  "project_emergency_support": "Emergency Support",
+  "project_emergency_support_desc": "Medical aid, supplies, and shelter in crises.",
+
+  "success_stories_title": "Success Stories from the Laborers We Support",
+  "story_1_name": "Salim's Journey to Fair Wages",
+  "story_1_desc": "With our legal help, Salim recovered unpaid wages and improved his working conditions.",
+  "story_2_name": "Amina's Health Recovery",
+  "story_2_desc": "We enabled access to treatment and financial support after a serious injury.",
+  "story_3_name": "Raju's New Career Path",
+  "story_3_desc": "Upskilling opened doors to better opportunities and stability.",
+  "story_4_name": "Kamla's Empowerment",
+  "story_4_desc": "Advocacy and training helped Kamla secure a fair job.",
+  "story_5_name": "Suresh's Recovery",
+  "story_5_desc": "Medical care and family assistance after an on-site injury.",
+
+  "page_not_found": "404 - Page Not Found",
+  "notfound_message": "Sorry, the page you are looking for does not exist.",
+   "hero_title1": "Helping Laborers,",
+  "hero_title2": "Changing Lives",
+  "hero_description": "Karigar Foundation supports laborers with justice, fair wages, safety, and dignity. Together, we build a future where every worker is valued and empowered.",
+  "hero_learn_more": "Learn More",
+  "hero_get_involved": "Get Involved",
+  "hero_image1_alt": "Community work",
+  "hero_image2_alt": "Laborers on the field",
+  "hero_image3_alt": "Support distribution",
+
+  "about_page": {
+    "lead": "Karigar Foundation advances dignity, safety, and fair wages for workers through legal aid, awareness, and rapid support. We partner with communities, employers, and institutions to make rights real on the ground.",
+    "mission": {
+      "title": "Our Mission",
+      "desc": "Protect workers’ rights and improve livelihoods by providing timely legal assistance, awareness, healthcare access, and emergency relief."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "A society where every worker is valued, safe at work, and paid fairly—without fear or exploitation."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": ["Dignity", "Justice", "Transparency", "Community", "Speed & Care"]
+    },
+    "whatWeDo": {
+      "title": "What We Do",
+      "items": [
+        "Legal help for unpaid wages, harassment, and workplace exploitation.",
+        "Rights awareness workshops and helpline support.",
+        "Emergency assistance: medical care, rations, and temporary shelter.",
+        "Skill-building and referrals for safer, better jobs."
+      ]
+    },
+    "approach": {
+      "title": "How We Work",
+      "items": [
+        "Listen first: document the case and immediate needs.",
+        "Resolve quickly: negotiate, escalate, or litigate where required.",
+        "Support the family: health, counseling, and cash/relief where needed.",
+        "Prevent repeat harm: train workers and engage responsible employers."
+      ]
+    },
+    "impact": {
+      "title": "Our Impact",
+      "stats": [
+        { "number": "10,000+", "label": "Workers Reached" },
+        { "number": "1,500+", "label": "Legal Cases Assisted" },
+        { "number": "800+", "label": "Emergency Supports" },
+        { "number": "120+", "label": "Workshops Conducted" }
+      ]
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "items": [
+        { "year": "2024–25", "text": "Scaling programs and partnerships across districts." }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "members": [
+        { "name": "Rohit Kumar", "role": "Founder & Director", "img": "/assets/team1.jpg" },
+        { "name": "Dhirendra Kumar", "role": "Program Lead — Rights & Awareness", "img": "/assets/team2.jpg" },
+        { "name": "Dhirendra Kumar", "role": "Program Lead — Rights & Awareness", "img": "/assets/team2.jpg" }
+      ]
+    },
+    "partners": {
+      "title": "Partners & Supporters",
+      "desc": "We work closely with government departments, hospitals, local NGOs, and responsible employers."
+    },
+    "objectives": {
+      "title": "Trust Objectives",
+      "intro": "Registered aims and activities the foundation undertakes for public welfare and worker upliftment.",
+      "items": [
+        "Enroll workers as trust members and help obtain Labour Department identity cards.",
+        "Support children of workers in cases of poverty, accident, or death.",
+        "Fight workplace injustice against any worker and secure fair remedies.",
+        "Facilitate accident & health insurance and connect members to government welfare schemes.",
+        "Ensure fair valuation/payment of workers’ output; provide official certification where required.",
+        "Apply for and execute eligible government and private tenders in the trust’s remit.",
+        "Form self-help groups (SHGs), link with banks, enable credit, and provide skill training; market artisan and cottage-industry products via fairs and exhibitions.",
+        "Establish and operate institutions for social development: libraries, reading rooms, gyms, clinics, schools (primary to senior), colleges, technical/medical institutes, hostels, animal hospitals, gaushalas, cultural centres, cottage industry and vocational hubs, and agricultural science centres.",
+        "Run recognized education programs in remote/tribal/backward regions, including special schools for needy children, with proper governing bodies and committees.",
+        "Organize seminars, conventions, exhibitions, and competitions at regular intervals.",
+        "Recognize exemplary citizens—honest officials, employees, social workers, and public leaders—with certificates and awards.",
+        "Mobilize resources for trust programs via public donations and grants from district/state/central governments, ministries, and national/international agencies.",
+        "Assist the destitute and needy; provide low-interest microloans for self-employment.",
+        "Advance the upliftment of Dalits, OBCs, SC/ST communities, and indigenous groups.",
+        "Promote agriculture and horticulture: introduce appropriate technology, value-addition, and processing; guide and train for rural enterprises.",
+        "Provide disaster relief during floods, droughts, fires, pandemics, and other crises; coordinate with Social Welfare Boards, Health Departments, and allied agencies.",
+        "Offer training and facilities for rural crafts and trades—tailoring, knitting, embroidery, and allied skills.",
+        "Protect the environment through social/agro-forestry, biodiversity conservation, and afforestation.",
+        "Promote renewable energy sources and their adoption in communities.",
+        "Disseminate important cultural, scientific, economic, and social information; convene public workshops.",
+        "Conduct cultural programs—dance, drama, music—and operate training centres for the arts.",
+        "Undertake any activity that promotes public welfare and benefit.",
+        "Establish allied institutions to deliver specialized projects where necessary.",
+        "Provide training and rehabilitation for persons with disabilities; support government schemes for assistive devices and prosthetics.",
+        "Promote sustainable agriculture among small, marginal, and women farmers: composting/vermicomposting, NADEP, integrated pest management, and climate resilience—offering free capacity-building where feasible.",
+        "Raise awareness about the necessity of education—especially girls’ education and equal rights for women.",
+        "Promote ethical, moral, and social values through cultural events, talks, and exhibitions.",
+        "Implement health and family-welfare initiatives (immunization, screenings, and camps) under relevant ministries and schemes.",
+        "Operate old-age homes and de-addiction/tobacco control centres as per social policy and norms.",
+        "Raise awareness on communicable and chronic diseases (TB, HIV/AIDS, diabetes control, malaria, cancer, hepatitis, etc.) and provide free medical services to the poor where possible.",
+        "Support implementation of women & child development programs and schemes.",
+        "Collaborate with ministries/boards: Women & Child, Social Welfare (state & central), Handloom & Handicrafts, Textiles, Khadi, NABARD, Human Resource/Skill Development, UNICEF, etc.",
+        "Provide emergency relief in calamities such as droughts, floods, fires, and earthquakes.",
+        "Enable minorities, the helpless, persons with disabilities, and destitute students through public-interest welfare programs with government support.",
+        "Establish rural industries and training centres; create self-employment opportunities through technical skilling and SHG formation.",
+        "Educate farmers, laborers, and artisans on rural-industry technologies; spread awareness via street plays, films, and documentaries.",
+        "Offer free training in yoga, naturopathy, and sports for community health in rural areas.",
+        "Promote rural sanitation, safe drinking water, housing, and public health; spread information on low-cost housing schemes and related government support."
+      ]
+    },
+    "cta": { "join": "Join as a Volunteer", "donate": "Donate to the Cause" }
+  },
+
+  "projects_page": {
+    "title": "Programs & Focus Areas",
+    "intro": "Our work spans legal justice, welfare, skilling, health, education, environment, and disaster relief—guided by registered objectives.",
+    "categories": [
+      { "key": "legal_aid", "title": "Legal Aid & Labour Rights", "desc": "Counseling, case documentation, notice drafting, police/administrative escalation, and representation to recover wages and stop exploitation.", "bullets": ["Unpaid wages & compensation", "Harassment & unsafe conditions", "Migrant worker assistance", "Labour card and identity facilitation"] },
+      { "key": "emergency", "title": "Emergency Relief", "desc": "Timely medical help, ration kits, temporary shelter, and transport support during crises.", "bullets": ["Floods, droughts, fires, epidemics", "Health camps & ambulance linkages", "Widow/orphan assistance"] },
+      { "key": "education", "title": "Education & Skills", "desc": "Non-formal education centres, scholarships, digital literacy, and trades like tailoring, embroidery, and carpentry.", "bullets": ["Girls’ education & equal rights", "School-to-skill bridges", "Apprenticeships & placements"] },
+      { "key": "women_child", "title": "Women & Child Development", "desc": "Nutrition, immunization, safe spaces, and livelihood collectives for women and adolescent girls.", "bullets": ["SHGs and microcredit", "Combating child labour & early marriage", "Maternal & child health"] },
+      { "key": "health", "title": "Health & Wellbeing", "desc": "Awareness on TB, HIV/AIDS, diabetes, malaria, cancer, and hepatitis; free checkups for the poor.", "bullets": ["Yoga & naturopathy sessions", "De-addiction & tobacco control", "Insurance enrollment drives"] },
+      { "key": "livelihoods", "title": "Livelihoods & Rural Industries", "desc": "Cottage industries, product design, branding, and market linkages via fairs and exhibitions.", "bullets": ["Bank linkages & credit", "Marketing & e-commerce pilots", "Buyer-seller meets"] },
+      { "key": "agri_env", "title": "Agriculture & Environment", "desc": "Agro-forestry, composting, IPM, water conservation, and climate-resilient practices.", "bullets": ["Vermicompost & NADEP pits", "Renewable energy adoption", "Biodiversity & afforestation drives"] },
+      { "key": "culture_sports", "title": "Culture & Sports", "desc": "Folk arts—dance, drama, music—and youth sports for health and social harmony.", "bullets": ["Street plays & film screenings", "Workshops & festivals", "Local talent awards"] }
+    ]
+  },
+
+  "get_involved_page": {
+    "title": "Ways to Get Involved",
+    "intro": "Real change is community-powered. Choose how you’d like to support.",
+    "ways": [
+      { "title": "Volunteer", "desc": "Field camps, helpline, documentation, teaching, and events." },
+      { "title": "Partner", "desc": "Collaborate on programs with NGOs, hospitals, colleges, and CSR teams." },
+      { "title": "Donate", "desc": "Sustain legal aid, health care, and emergency relief." },
+      { "title": "Intern", "desc": "Learn impact operations—research, data, design, and fieldwork." }
+    ]
+  },
+
+  "donate_page": {
+    "title": "Donate",
+    "intro": "Every rupee protects a worker’s rights or helps a family in crisis.",
+    "why": ["Justice is expensive—but exploitation costs more.", "Transparent reporting and impact updates.", "Eligible programs supported per prevailing norms."],
+    "methods": [
+      { "title": "UPI / Wallet", "desc": "Scan and pay instantly." },
+      { "title": "Bank Transfer", "desc": "Direct NEFT/IMPS/RTGS to our program account." },
+      { "title": "In-Kind", "desc": "Ration kits, medicines, teaching aids, and hygiene supplies." }
+    ]
+  },
+
+  "contact_page": {
+    "title": "Contact Us",
+    "intro": "We respond fastest on call/WhatsApp; email for partnerships and media.",
+    "address_label": "Registered Office",
+    "hours": "Working Hours",
+    "hours_value": "Mon–Sat, 9:30 AM – 6:00 PM",
+    "helpline": "Helpline",
+    "email_label": "Email"
+  },
+
+  "impact_page": {
+    "lead": "Our programs deliver measurable results—recovering wages, securing justice, improving health access, and opening pathways to dignified livelihoods.",
+    "kpis": [
+      { "number": "10,000+", "label": "Workers Reached" },
+      { "number": "1,500+", "label": "Legal Cases Assisted" },
+      { "number": "800+",   "label": "Emergency Supports" },
+      { "number": "120+",   "label": "Workshops Conducted" }
+    ],
+    "outcomes_title": "Program Outcomes",
+    "outcomes": [
+      { "key": "legal", "title": "Legal Justice & Rights", "desc": "We resolve labour disputes and recover unpaid dues with fast, practical action.", "bullets": ["Unpaid wages recovered", "Disputes resolved in < 30 days", "Safer workplaces secured"] },
+      { "key": "relief", "title": "Welfare & Relief", "desc": "Families receive timely medical help, rations, and temporary shelter during crises.", "bullets": ["Ration and medicine kits", "Ambulance & hospital linkages", "Emergency shelters arranged"] },
+      { "key": "skills", "title": "Education & Skills", "desc": "Non-formal education and job-linked skilling open better opportunities.", "bullets": ["Digital & trade skills", "Scholarships and referrals", "Apprenticeships & placements"] },
+      { "key": "health", "title": "Health & Wellbeing", "desc": "Awareness, screenings, and insurance linkages reduce health shocks.", "bullets": ["TB/HIV & NCD awareness", "Free health camps", "Insurance enrollment drives"] },
+      { "key": "women_child", "title": "Women & Child Development", "desc": "Safety, nutrition, and collectives that grow income and voice.", "bullets": ["SHGs & microcredit", "Maternal & child health", "Stopping child labour & early marriage"] }
+    ],
+    "testimonials_title": "What People Say",
+    "testimonials": [
+      { "quote": "I got my full wages with their support. The case moved quickly.", "name": "Salim", "meta": "Construction Worker" },
+      { "quote": "After an injury, they helped me access treatment and relief.", "name": "Amina", "meta": "Factory Worker" },
+      { "quote": "Their training gave me confidence and a better job path.", "name": "Raju", "meta": "Trainee" }
+    ],
+    "milestones_title": "Milestones",
+    "milestones": [
+      { "year": "2024–25", "text": "Scaling multi-district partnerships and programs." }
+    ],
+    "reports": {
+      "title": "Reports & Documents",
+      "items": [
+        { "label": "Annual Report (PDF)", "href": "#" },
+        { "label": "Audit Summary", "href": "#" },
+        { "label": "Program Briefs", "href": "#" }
+      ]
+    }
+  },
+  "success_stories": {
+  "title": "Success Stories",
+  "description": "Real stories of transformation and hope from the laborers we support",
+  "loading": "Loading success stories...",
+  "lives_impacted": "Lives Impacted",
+  "projects_completed": "Projects Completed",
+  "communities_served": "Communities Served",
+  "success_rate": "Success Rate"
+}
+}
